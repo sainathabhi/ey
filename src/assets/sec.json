@@ -1,0 +1,602 @@
+[
+    {
+        "Batch Name": "(2021)_COVID Appropriate Behavior",
+        "Participant Count": "12581",
+        "Completion Count": "9133",
+        "Certificate Count": "9133"
+    },
+    {
+        "Batch Name": "(2021) Proning for Self Care",
+        "Participant Count": "6417",
+        "Completion Count": "4801",
+        "Certificate Count": "4801"
+    },
+    {
+        "Batch Name": "(2021)_Clinical Management",
+        "Participant Count": "5628",
+        "Completion Count": "3494",
+        "Certificate Count": "3494"
+    },
+    {
+        "Batch Name": "Fetal concerns in management of COVID infection in pregnancy",
+        "Participant Count": "2237",
+        "Completion Count": "952",
+        "Certificate Count": "952"
+    },
+    {
+        "Batch Name": "Management of COVID in neonates: Oxygen Therapy",
+        "Participant Count": "1834",
+        "Completion Count": "1078",
+        "Certificate Count": "1078"
+    },
+    {
+        "Batch Name": "Acute COVID-19 in children",
+        "Participant Count": "1621",
+        "Completion Count": "960",
+        "Certificate Count": "960"
+    },
+    {
+        "Batch Name": "Breastfeeding and Breastmilk Feeding in infants born to mothers with COVID-19",
+        "Participant Count": "1600",
+        "Completion Count": "964",
+        "Certificate Count": "964"
+    },
+    {
+        "Batch Name": "Assessment of Sick Child",
+        "Participant Count": "705",
+        "Completion Count": "337",
+        "Certificate Count": "337"
+    },
+    {
+        "Batch Name": "COVID Testing in Neonates",
+        "Participant Count": "678",
+        "Completion Count": "477",
+        "Certificate Count": "477"
+    },
+    {
+        "Batch Name": "Proning for Self Care",
+        "Participant Count": "628",
+        "Completion Count": "503",
+        "Certificate Count": "503"
+    },
+    {
+        "Batch Name": "Kangaroo Mother Care (KMC) for Low-birth Weight (LBW) Infants born to mothers with COVID-19",
+        "Participant Count": "590",
+        "Completion Count": "418",
+        "Certificate Count": "418"
+    },
+    {
+        "Batch Name": "Emotional Preparedness to Care for COVID-19",
+        "Participant Count": "482",
+        "Completion Count": "346",
+        "Certificate Count": "346"
+    },
+    {
+        "Batch Name": "Assigning the area of care for Neonates with Suspect and Confirmed COVID-19",
+        "Participant Count": "479",
+        "Completion Count": "262",
+        "Certificate Count": "262"
+    },
+    {
+        "Batch Name": "Cardio-Pulmonary Resuscitation (CPR) Basics",
+        "Participant Count": "445",
+        "Completion Count": "287",
+        "Certificate Count": "287"
+    },
+    {
+        "Batch Name": "Clinical Management of COVID-19 (Ayurveda)",
+        "Participant Count": "429",
+        "Completion Count": "330",
+        "Certificate Count": "330"
+    },
+    {
+        "Batch Name": "Clinical Management of COVID-19 in Adult Patients",
+        "Participant Count": "418",
+        "Completion Count": "313",
+        "Certificate Count": "313"
+    },
+    {
+        "Batch Name": "Clinical Management of COVID using Siddha",
+        "Participant Count": "415",
+        "Completion Count": "249",
+        "Certificate Count": "249"
+    },
+    {
+        "Batch Name": "Grief Counselling",
+        "Participant Count": "343",
+        "Completion Count": "222",
+        "Certificate Count": "222"
+    },
+    {
+        "Batch Name": "Multisystem Inflammatory Syndrome in Newborns (MIS-N)",
+        "Participant Count": "334",
+        "Completion Count": "244",
+        "Certificate Count": "244"
+    },
+    {
+        "Batch Name": "Communication with families of children with COVID-19 infection",
+        "Participant Count": "324",
+        "Completion Count": "236",
+        "Certificate Count": "236"
+    },
+    {
+        "Batch Name": "Communication with family caregivers of COVID-19 patients",
+        "Participant Count": "299",
+        "Completion Count": "255",
+        "Certificate Count": "255"
+    },
+    {
+        "Batch Name": "Immunization, Discharge & Follow-up of neonates with COVID-19",
+        "Participant Count": "274",
+        "Completion Count": "202",
+        "Certificate Count": "202"
+    },
+    {
+        "Batch Name": "COVID-19 History taking and Physical Examination",
+        "Participant Count": "246",
+        "Completion Count": "196",
+        "Certificate Count": "196"
+    },
+    {
+        "Batch Name": "General ICU Care - Critically Ill Patients",
+        "Participant Count": "244",
+        "Completion Count": "189",
+        "Certificate Count": "189"
+    },
+    {
+        "Batch Name": "Clinical Management of Mucormycosis \u2013 Early Identification and Diagnosis",
+        "Participant Count": "237",
+        "Completion Count": "165",
+        "Certificate Count": "165"
+    },
+    {
+        "Batch Name": "Home based management of children with covid-19 infection",
+        "Participant Count": "220",
+        "Completion Count": "164",
+        "Certificate Count": "164"
+    },
+    {
+        "Batch Name": "Management of COVID-19 in neonates : Respiratory Assistance",
+        "Participant Count": "219",
+        "Completion Count": "139",
+        "Certificate Count": "139"
+    },
+    {
+        "Batch Name": "Management of Multisystem Inflammatory Syndrome in Children (MIS-C)",
+        "Participant Count": "214",
+        "Completion Count": "147",
+        "Certificate Count": "147"
+    },
+    {
+        "Batch Name": "Labour and Delivery in Women with Suspected or Confirmed COVID",
+        "Participant Count": "202",
+        "Completion Count": "151",
+        "Certificate Count": "151"
+    },
+    {
+        "Batch Name": "Management of Hypertension in COVID-19 Patients",
+        "Participant Count": "199",
+        "Completion Count": "164",
+        "Certificate Count": "164"
+    },
+    {
+        "Batch Name": "Management of post COVID-19 diabetes and high blood pressure/hypertension-  through Ayurveda",
+        "Participant Count": "197",
+        "Completion Count": "154",
+        "Certificate Count": "154"
+    },
+    {
+        "Batch Name": "COVID-19 Sample Collection, Packaging and Transportation",
+        "Participant Count": "196",
+        "Completion Count": "158",
+        "Certificate Count": "158"
+    },
+    {
+        "Batch Name": "Counseling and continuation of family welfare services",
+        "Participant Count": "185",
+        "Completion Count": "146",
+        "Certificate Count": "146"
+    },
+    {
+        "Batch Name": "COVID-19 drug therapy",
+        "Participant Count": "181",
+        "Completion Count": "137",
+        "Certificate Count": "137"
+    },
+    {
+        "Batch Name": "Complications in COVID -19: Thrombosis, Pulmonary Embolism, Bleeding and Pneumothorax",
+        "Participant Count": "170",
+        "Completion Count": "121",
+        "Certificate Count": "121"
+    },
+    {
+        "Batch Name": "Management of Biomedical Waste",
+        "Participant Count": "168",
+        "Completion Count": "100",
+        "Certificate Count": "100"
+    },
+    {
+        "Batch Name": "Management of COVID-19 illness in neonates",
+        "Participant Count": "162",
+        "Completion Count": "84",
+        "Certificate Count": "84"
+    },
+    {
+        "Batch Name": "_Prevention of COVID-19 Spread in Aerosol Generating Procedures (AGP)",
+        "Participant Count": "155",
+        "Completion Count": "106",
+        "Certificate Count": "106"
+    },
+    {
+        "Batch Name": "Post COVID-19 care as per Ayurvedic perspective",
+        "Participant Count": "153",
+        "Completion Count": "121",
+        "Certificate Count": "121"
+    },
+    {
+        "Batch Name": "Discharge Advise and Follow up of COVID-19 patients",
+        "Participant Count": "151",
+        "Completion Count": "120",
+        "Certificate Count": "120"
+    },
+    {
+        "Batch Name": "Epidemiology of COVID-19 Infection",
+        "Participant Count": "138",
+        "Completion Count": "106",
+        "Certificate Count": "106"
+    },
+    {
+        "Batch Name": "Clinical Management Of SARI, ARDS & Septic Shock",
+        "Participant Count": "136",
+        "Completion Count": "103",
+        "Certificate Count": "103"
+    },
+    {
+        "Batch Name": "Clinical Management of Mucormycosis \u2013 Treatment, Use and Preparation of Amphotericin B",
+        "Participant Count": "128",
+        "Completion Count": "91",
+        "Certificate Count": "91"
+    },
+    {
+        "Batch Name": "COVID-19 facility management",
+        "Participant Count": "126",
+        "Completion Count": "97",
+        "Certificate Count": "97"
+    },
+    {
+        "Batch Name": "COVID-19 investigations",
+        "Participant Count": "118",
+        "Completion Count": "94",
+        "Certificate Count": "94"
+    },
+    {
+        "Batch Name": "Nursing Quality Monitoring and Key Performance Indicators for COVID-19",
+        "Participant Count": "100",
+        "Completion Count": "63",
+        "Certificate Count": "63"
+    },
+    {
+        "Batch Name": "Personal Care and Bedside Assistance",
+        "Participant Count": "99",
+        "Completion Count": "62",
+        "Certificate Count": "62"
+    },
+    {
+        "Batch Name": "Care of Pregnant Healthcare Workers During COVID-19 Pandemic",
+        "Participant Count": "94",
+        "Completion Count": "70",
+        "Certificate Count": "70"
+    },
+    {
+        "Batch Name": "Facility preparedness during COVID-19 pandemic",
+        "Participant Count": "93",
+        "Completion Count": "73",
+        "Certificate Count": "73"
+    },
+    {
+        "Batch Name": "Occupational Therapy: ADL skills and Energy conservation strategies",
+        "Participant Count": "89",
+        "Completion Count": "69",
+        "Certificate Count": "69"
+    },
+    {
+        "Batch Name": "Management of mild COVID-19 infection in pregnancy",
+        "Participant Count": "81",
+        "Completion Count": "54",
+        "Certificate Count": "54"
+    },
+    {
+        "Batch Name": "Management of Dead Bodies of COVID-19 Suspected or Confirmed Case",
+        "Participant Count": "81",
+        "Completion Count": "61",
+        "Certificate Count": "61"
+    },
+    {
+        "Batch Name": "Management of moderate to severe COVID-19 in pregnancy",
+        "Participant Count": "79",
+        "Completion Count": "48",
+        "Certificate Count": "48"
+    },
+    {
+        "Batch Name": "Cardio-Pulmonary Resuscitation (CPR) in adult COVID-19 patients",
+        "Participant Count": "79",
+        "Completion Count": "45",
+        "Certificate Count": "45"
+    },
+    {
+        "Batch Name": "Nutrition in children admitted with COVID-19",
+        "Participant Count": "79",
+        "Completion Count": "59",
+        "Certificate Count": "59"
+    },
+    {
+        "Batch Name": "Pulse oximeter",
+        "Participant Count": "78",
+        "Completion Count": "55",
+        "Certificate Count": "55"
+    },
+    {
+        "Batch Name": "Heated Humidified High Flow Nasal Cannula (HHHFNC)",
+        "Participant Count": "76",
+        "Completion Count": "50",
+        "Certificate Count": "50"
+    },
+    {
+        "Batch Name": "COVID-19 Vaccination in pregnancy and lactation",
+        "Participant Count": "73",
+        "Completion Count": "46",
+        "Certificate Count": "46"
+    },
+    {
+        "Batch Name": "General Care and Procedures",
+        "Participant Count": "72",
+        "Completion Count": "43",
+        "Certificate Count": "43"
+    },
+    {
+        "Batch Name": "General Care and Monitoring- Blood Pressure, Pulse Oximetry, End Tidal CO2, EKG",
+        "Participant Count": "70",
+        "Completion Count": "37",
+        "Certificate Count": "37"
+    },
+    {
+        "Batch Name": "Management of Shock in Children",
+        "Participant Count": "69",
+        "Completion Count": "48",
+        "Certificate Count": "48"
+    },
+    {
+        "Batch Name": "Medications in children infected with COVID-19",
+        "Participant Count": "61",
+        "Completion Count": "27",
+        "Certificate Count": "27"
+    },
+    {
+        "Batch Name": "Clinical Management of COVID-19 using Homeopathy",
+        "Participant Count": "61",
+        "Completion Count": "48",
+        "Certificate Count": "48"
+    },
+    {
+        "Batch Name": "Oxygen Therapy in Children: Use of Low Flow Devices",
+        "Participant Count": "58",
+        "Completion Count": "33",
+        "Certificate Count": "33"
+    },
+    {
+        "Batch Name": "Health and well-being: Perspective of Naturopathy",
+        "Participant Count": "57",
+        "Completion Count": "29",
+        "Certificate Count": "29"
+    },
+    {
+        "Batch Name": "Pediatric BLS In COVID-19",
+        "Participant Count": "56",
+        "Completion Count": "36",
+        "Certificate Count": "36"
+    },
+    {
+        "Batch Name": "(2021)_End of life care in COVID-19",
+        "Participant Count": "55",
+        "Completion Count": "46",
+        "Certificate Count": "46"
+    },
+    {
+        "Batch Name": "Post COVID-19 Complications and Follow-up Protocol",
+        "Participant Count": "55",
+        "Completion Count": "35",
+        "Certificate Count": "35"
+    },
+    {
+        "Batch Name": "Intravenous Fluid Therapy in Children with COVID-19",
+        "Participant Count": "53",
+        "Completion Count": "33",
+        "Certificate Count": "33"
+    },
+    {
+        "Batch Name": "Postnatal care during COVID-19 pandemic",
+        "Participant Count": "52",
+        "Completion Count": "38",
+        "Certificate Count": "38"
+    },
+    {
+        "Batch Name": "Paediatric ALS in COVID-19",
+        "Participant Count": "52",
+        "Completion Count": "37",
+        "Certificate Count": "37"
+    },
+    {
+        "Batch Name": "Post discharge care of COVID-19 patients",
+        "Participant Count": "51",
+        "Completion Count": "38",
+        "Certificate Count": "38"
+    },
+    {
+        "Batch Name": "Health and well being- Ayurveda",
+        "Participant Count": "51",
+        "Completion Count": "38",
+        "Certificate Count": "38"
+    },
+    {
+        "Batch Name": "Optimising Antenatal Care During COVID-19 Pandemic",
+        "Participant Count": "50",
+        "Completion Count": "35",
+        "Certificate Count": "35"
+    },
+    {
+        "Batch Name": "Management of Diabetes Mellitus in COVID-19",
+        "Participant Count": "47",
+        "Completion Count": "30",
+        "Certificate Count": "30"
+    },
+    {
+        "Batch Name": "Mechanical Ventilation- Machine & Basic Settings",
+        "Participant Count": "45",
+        "Completion Count": "29",
+        "Certificate Count": "29"
+    },
+    {
+        "Batch Name": "Point of Care Testing (POCT) in COVID-19",
+        "Participant Count": "43",
+        "Completion Count": "27",
+        "Certificate Count": "27"
+    },
+    {
+        "Batch Name": "(2021)_Clinical management of COVID-19 through Naturopathy",
+        "Participant Count": "43",
+        "Completion Count": "35",
+        "Certificate Count": "35"
+    },
+    {
+        "Batch Name": "Oxygen therapy in COVID-19 infection",
+        "Participant Count": "39",
+        "Completion Count": "25",
+        "Certificate Count": "25"
+    },
+    {
+        "Batch Name": "Parent visitation to SNCU & counselling during COVID-19 pandemic",
+        "Participant Count": "39",
+        "Completion Count": "27",
+        "Certificate Count": "27"
+    },
+    {
+        "Batch Name": "Management of persons with high risk of Metabolic Syndrome Yoga",
+        "Participant Count": "36",
+        "Completion Count": "19",
+        "Certificate Count": "19"
+    },
+    {
+        "Batch Name": "Health and Well-Being Perspective of Siddha",
+        "Participant Count": "36",
+        "Completion Count": "24",
+        "Certificate Count": "24"
+    },
+    {
+        "Batch Name": "Oral care protocol for COVID-19 hospitalized patients",
+        "Participant Count": "33",
+        "Completion Count": "27",
+        "Certificate Count": "27"
+    },
+    {
+        "Batch Name": "Family planning services in COVID-19 pandemic",
+        "Participant Count": "32",
+        "Completion Count": "26",
+        "Certificate Count": "26"
+    },
+    {
+        "Batch Name": "Point of care devices: Infection Control and Prevention",
+        "Participant Count": "31",
+        "Completion Count": "22",
+        "Certificate Count": "22"
+    },
+    {
+        "Batch Name": "Molecular Laboratory Testing for COVID-19",
+        "Participant Count": "31",
+        "Completion Count": "24",
+        "Certificate Count": "24"
+    },
+    {
+        "Batch Name": "Health and well-being in Unani medicine",
+        "Participant Count": "28",
+        "Completion Count": "19",
+        "Certificate Count": "19"
+    },
+    {
+        "Batch Name": "Nursing care of ventilated patients in ICU",
+        "Participant Count": "28",
+        "Completion Count": "18",
+        "Certificate Count": "18"
+    },
+    {
+        "Batch Name": "Management of Metabolic Syndrome Through Naturopathy",
+        "Participant Count": "28",
+        "Completion Count": "15",
+        "Certificate Count": "15"
+    },
+    {
+        "Batch Name": "Nutrition Support: Enteral vs Parenteral during COVID -19 illness",
+        "Participant Count": "26",
+        "Completion Count": "18",
+        "Certificate Count": "18"
+    },
+    {
+        "Batch Name": "Clinical Management of Diabetes Mellitus Using Siddha",
+        "Participant Count": "25",
+        "Completion Count": "21",
+        "Certificate Count": "21"
+    },
+    {
+        "Batch Name": "Health and well being perspective of Yoga",
+        "Participant Count": "24",
+        "Completion Count": "10",
+        "Certificate Count": "10"
+    },
+    {
+        "Batch Name": "Post COVID Care Through Siddhar Yogam",
+        "Participant Count": "23",
+        "Completion Count": "15",
+        "Certificate Count": "15"
+    },
+    {
+        "Batch Name": "Neuromuscular Care in COVID-19 and Homoeopathy",
+        "Participant Count": "23",
+        "Completion Count": "12",
+        "Certificate Count": "12"
+    },
+    {
+        "Batch Name": "Introduction to Tuberculosis",
+        "Participant Count": "23",
+        "Completion Count": "14",
+        "Certificate Count": "14"
+    },
+    {
+        "Batch Name": "Occupational Therapy perspective in Management of COVID-19",
+        "Participant Count": "22",
+        "Completion Count": "15",
+        "Certificate Count": "15"
+    },
+    {
+        "Batch Name": "Preventive Cardiology in COVID-19 and Homeopathic Approach",
+        "Participant Count": "18",
+        "Completion Count": "15",
+        "Certificate Count": "15"
+    },
+    {
+        "Batch Name": "Management of Persons with High Risk of Metabolic Syndrome",
+        "Participant Count": "14",
+        "Completion Count": "8",
+        "Certificate Count": "8"
+    },
+    {
+        "Batch Name": "NTEP programme and Services under NTEP",
+        "Participant Count": "8",
+        "Completion Count": "6",
+        "Certificate Count": "6"
+    },
+    {
+        "Batch Name": "Post COVID care- Yogic perspective",
+        "Participant Count": "7",
+        "Completion Count": "5",
+        "Certificate Count": "5"
+    }
+]

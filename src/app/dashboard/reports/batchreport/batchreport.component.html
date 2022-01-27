@@ -1,0 +1,452 @@
+<body>
+    <section class="home-section" >
+            <nav>
+                    <div class="sidebar-button">
+                        <i class='bx bx-menu sidebarBtn'></i>
+                        <img src="assets/imgs/background/iGOT_Logo.png" style="margin-right: 10%">
+                             <span class="dashboard">Home</span>
+                    </div>
+                    <div class="search-box" style="padding: 15px">
+                            <div class="dropdown" style="padding: 0px 25px">
+                                <span class="dropbtn" style="cursor:pointer">Courses</span>
+                                <div class="dropdown-content">
+                                  <a href="dashboard/batch">Statics</a>
+                                  <a href="dashboard/ProfesionalReport">Summary</a>
+                                  <a href="">Category</a>
+
+                                </div>
+                              </div>
+
+                             <div class="dropdown">
+                              <span class="dropbtn" style="cursor:pointer; ">Assement</span>
+                              <div class="dropdown-content">
+                                <a href="#">Assement Report One</a>
+                                <a href="#">Assement Report Two</a>
+                              </div>
+                            </div>
+
+
+                            <div class="dropdown">
+                                <span class="dropbtn" style="cursor:pointer; padding: 20px;">iGOT Report</span>
+                                <div class="dropdown-content">
+                                  <a href="dashboard/CategoryReport">iGOT Training Report</a>
+                                  <a href="dashboard/SecCategoryReport">Category Wise Report</a>
+                                  <a href="dashboard/ThirdCategoryReport">User Type Report</a>
+                                </div>
+                              </div>
+
+                          <!-- <input type="text" placeholder="Search..."> -->
+                          <!-- <i class='bx bx-search' ></i> -->
+                      </div>
+                    <div class="profile-details" style="padding-left: 143px;">
+                        <p-avatar icon="pi pi-user" [style]="{'color': '#ffffff'}" shape="circle">
+                        </p-avatar>
+                    </div>
+                </nav>
+
+
+                <div class="container" style=" max-width: 1339px; padding: 27px 16px;">
+                    <div class="row">
+                      <!-- <div class="col" style="cursor:pointer" (click)="declaredBoardData()"> -->
+                        <div class="col">
+                        <div class="card " >
+                            <div class="card-header bg-transparent">
+                              Active Batches
+                            </div>
+                          <div class="card-body">
+
+                            <!-- <div class="container"> -->
+                            <div class="row" >
+                              <div class="col">
+                                <h5 class="card-title mt-3">{{totalBatchesCountInBatchReport}} </h5>
+                              </div>
+                              <div class="col text-right">
+                                  <!-- <i class="fab fa-accessible-icon mt-2" style="font-size:50px; "></i> -->
+                                <img src="assets/imgs/background/bat.png" style="
+                                            height: 67px;
+                                        ">
+                              </div>
+                            </div>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col" style="cursor:pointer" (click)="clickParticipentDiv()">
+                          <div class="card" >
+                              <div class="card-header bg-transparent">
+                                Total Registration
+                              </div>
+                            <div class="card-body">
+
+                              <!-- <div class="container"> -->
+                              <div class="row">
+                                <div class="col">
+                                  <h5 class="card-title  mt-3">{{totalUniqueParticipentInBatches}}</h5>
+                                </div>
+                                <div class="col text-right">
+                                  <img src="assets/imgs/background/Students.png" style="
+                                              height: 67px;
+                                          ">
+                                </div>
+                              </div>
+                              <!-- </div> -->
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card">
+                              <div class="card-header bg-transparent">
+                                Unique Registration
+                              </div>
+                            <div class="card-body">
+
+                              <!-- <div class="container"> -->
+                              <div class="row">
+                                <div class="col">
+                                  <h5 class="card-title  mt-3">{{totalUniqueParticipent}} </h5>
+                                </div>
+                                <div class="col text-right">
+                                  <img src="assets/imgs/background/unique-user12.png" style="height: 67px; ">
+                                </div>
+                              </div>
+                              <!-- </div> -->
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col" style="cursor:pointer" (click)="clickOtherBatches()">
+                            <div class="card">
+                                <div class="card-header bg-transparent">
+                                  Ideal Batches
+                                </div>
+                              <div class="card-body">
+
+                                <!-- <div class="container"> -->
+                                <div class="row">
+                                  <div class="col">
+                                    <h5 class="card-title  mt-3">{{totalBatchesFromBothReport}} </h5>
+                                  </div>
+                                  <div class="col text-right">
+                                    <img src="assets/imgs/background/other.png" style="height: 67px; ">
+                                  </div>
+                                </div>
+                                <!-- </div> -->
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+
+
+                    <div class="row" *ngIf="showTotalParticipentDiv">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <h5 class="card-header">STATE WISE PARTICIPANTS</h5>
+
+                              <div class="card-body" *ngIf="selectAdresseAllUsers">
+                                  <div echarts class="demo-chart" [ngClass]="{'graph-border' : stateWiseParticipenatGraph}"
+                                  (chartClick)="onChartClick($event)" [options]="stateWiseParticipenatGraph"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-6">
+                              <div class="card">
+                                  <h5 class="card-header">STATE WISE COMPLETED Vs ONGOING</h5>
+
+                                <div class="card-body" *ngIf="selectAdresseAllUsers">
+                                    <div echarts class="demo-chart"
+                                [ngClass]="{'graph-border' : stateWiseParticipentAndNonParticipentGraph}"
+                                [options]="stateWiseParticipentAndNonParticipentGraph"></div>
+                                </div>
+                              </div>
+                            </div>
+
+                      </div>
+
+
+
+
+                      <div class="row" *ngIf="showTotalParticipentDiv">
+                          <div class="col-sm-6" *ngIf="selectAdresseAllUsers1">
+                              <div class="card">
+                                  <h5 class="card-header">DISTRICT WISE PARTICIPANTS</h5>
+
+                                <div class="card-body">
+                                    <div echarts class="demo-chart"
+                                    [ngClass]="{'graph-border' : DistrictWiseParticipenatGraph}"
+                                    [options]="DistrictWiseParticipenatGraph"></div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-sm-6" *ngIf="selectAdresseAllUsers2">
+                                <div class="card">
+                                    <h5 class="card-header">'DISTRICT WISE COMPLETED Vs ONGOING</h5>
+
+                                  <div class="card-body">
+                                      <div echarts class="demo-chart"
+                                      [ngClass]="{'graph-border' : districtWiseParticipentAndNonParticipentGraph}"
+                                      [options]="districtWiseParticipentAndNonParticipentGraph"></div>
+                                  </div>
+                                </div>
+                              </div>
+
+                        </div>
+
+
+
+
+                        <div class="row" *ngIf="showTotalParticipentDiv">
+                            <div class="col-sm-12" *ngIf="stateTableShow">
+                                <div class="card">
+                                    <h5 class="card-header">STATE WISE DATA</h5>
+                                  <div class="card-body">
+                                      <p-table #dt1 [value]="stateWiseParticipantData"  [columns]="colsUser" [paginator]="true" [rows]="10" [style]="{'background-color':'#cecece'}" [resizableColumns]="true">
+                                          <ng-template pTemplate="caption">
+                                                  <div class="ui small left icon input align-left">
+                                                      <input pInputText type="text" class="search-boxx" (input)="dt1.filterGlobal(getEventValue($event), 'contains')" placeholder="Search keyword" />
+                                                      <button type="button"  style="float:right;  margin-left:15px;overflow: unset;box-shadow: 0 0 0px 0 #9f9b9b, 0 0 5px 0 #878682, 0 0 0px 0 #b1aeae inset;" (click)="stateWiseexportPdf()"
+                                                      class="p-button-warning p-button p-button-icon-only">
+                                                      <img src="assets/imgs/background/epdf1.png" ></button>&nbsp;&nbsp;
+
+                                                      <button type="button" style="float:right;overflow: unset;box-shadow: 0 0 0px 0 #9f9b9b, 0 0 5px 0 #878682, 0 0 0px 0 #b1aeae inset;" (click)="dt1.exportCSV()"
+                                                      class="p-element p-mr-2 p-button p-component p-button-icon-only">
+                                                      <img src="assets/imgs/background/csvimage.png" style=""></button>
+
+
+                                                  </div>
+                                              </ng-template>
+                                          <ng-template pTemplate="header" let-columns >
+                                            <tr>
+                                              <th *ngFor="let col of columns" pResizableColumn  [pSortableColumn]="col.field">
+                                                  {{col.header}}
+                                                  <p-sortIcon [field]="col.field"></p-sortIcon>
+                                              </th>
+                                              </tr>
+                                              <tr>
+                                                  <!-- <th  *ngFor="let col of columns" [ngSwitch]="col.field">
+                                  <p-multiSelect *ngSwitchCase="'State'" [filter]="true"  (onChange)="dt1.filter($event.value, col.field, 'in')" [options]="allStateNameData" defaultLabel="All"
+                                                  appendTo="body"></p-multiSelect>
+                                                  </th> -->
+                                                  </tr>
+                                          </ng-template>
+                                          <ng-template pTemplate="body" let-stateWiseParticipantData let-columns="columns">
+                                            <tr>
+                                              <td *ngFor="let col of columns" class="ui-resizable-column">
+                                                  {{stateWiseParticipantData[col.field]}}
+                                              </td>
+                                            </tr>
+                                            </ng-template>
+                                        </p-table>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+
+
+
+                              <div class="col-sm-12" *ngIf="districtTableShow">
+                                  <div class="card">
+                                      <h5 class="card-header">DISTRICT WISE DATA</h5>
+                                    <div class="card-body">
+                                        <p-table #dt1 [value]="districtWiseParticipantData"  [columns]="colsUserDistrict" [paginator]="true" [rows]="10" [style]="{'background-color':'#cecece'}" [resizableColumns]="true">
+                                            <ng-template pTemplate="caption">
+                                                    <div class="ui small left icon input align-left">
+                                                        <input pInputText type="text" class="search-boxx" (input)="dt1.filterGlobal(getEventValue($event), 'contains')" placeholder="Search keyword" />
+                                                        <button type="button"  style="float:right;  margin-left:15px;overflow: unset;box-shadow: 0 0 0px 0 #9f9b9b, 0 0 5px 0 #878682, 0 0 0px 0 #b1aeae inset;" (click)="districtWiseexportPdf()"
+                                                        class="p-button-warning p-button p-button-icon-only ">
+                                                        <img src="assets/imgs/background/epdf1.png" ></button>&nbsp;&nbsp;
+
+                                                        <button type="button" style="float:right;overflow: unset;box-shadow: 0 0 0px 0 #9f9b9b, 0 0 5px 0 #878682, 0 0 0px 0 #b1aeae inset;" (click)="dt1.exportCSV()"
+                                                        class="p-element p-mr-2 p-button p-component p-button-icon-only ">
+                                                        <img src="assets/imgs/background/csvimage.png" style=""></button>
+
+
+                                                    </div>
+                                                </ng-template>
+                                            <ng-template pTemplate="header" let-columns >
+                                              <tr>
+                                                <th *ngFor="let col of columns" pResizableColumn  [pSortableColumn]="col.field">
+                                                    {{col.header}}
+                                                    <p-sortIcon [field]="col.field"></p-sortIcon>
+                                                </th>
+                                                </tr>
+                                                <tr>
+                                                    <!-- <th  *ngFor="let col of columns" [ngSwitch]="col.field">
+                                    <p-multiSelect *ngSwitchCase="'State'" [filter]="true"  (onChange)="dt1.filter($event.value, col.field, 'in')" [options]="allStateNameData" defaultLabel="All"
+                                                    appendTo="body"></p-multiSelect>
+                                                    </th> -->
+                                                    </tr>
+                                            </ng-template>
+                                            <ng-template pTemplate="body" let-districtWiseParticipantData let-columns="columns">
+                                              <tr>
+                                                <td *ngFor="let col of columns" class="ui-resizable-column">
+                                                    {{districtWiseParticipantData[col.field]}}
+                                                </td>
+                                              </tr>
+                                              </ng-template>
+                                          </p-table>
+                                    </div>
+                                  </div>
+                                </div>
+
+                          </div>
+
+                          <div class="row" *ngIf="showOtherBatchesDiv">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <h5 class="card-header">BATCHES</h5>
+                                  <div class="card-body">
+                                      <p-table #dt1 [value]="totalOtherBatchesArray"  [columns]="colsOtherBatchs" [paginator]="true" [rows]="10" [style]="{'background-color':'#cecece'}" [resizableColumns]="true">
+                                          <ng-template pTemplate="caption">
+                                                  <div class="ui small left icon input align-left">
+                                                      <input pInputText type="text" class="search-boxx" (input)="dt1.filterGlobal(getEventValue($event), 'contains')" placeholder="Search keyword" />
+                                                      <button type="button"  style="float:right;  margin-left:15px;overflow: unset;box-shadow: 0 0 0px 0 #9f9b9b, 0 0 5px 0 #878682, 0 0 0px 0 #b1aeae inset;" (click)="stateWiseexportPdf()"
+                                                      class="p-button-warning p-button p-button-icon-only">
+                                                      <img src="assets/imgs/background/epdf1.png" ></button>&nbsp;&nbsp;
+
+                                                      <button type="button" style="float:right;overflow: unset;box-shadow: 0 0 0px 0 #9f9b9b, 0 0 5px 0 #878682, 0 0 0px 0 #b1aeae inset;" (click)="dt1.exportCSV()"
+                                                      class="p-element p-mr-2 p-button p-component p-button-icon-only">
+                                                      <img src="assets/imgs/background/csvimage.png" style=""></button>
+
+
+                                                  </div>
+                                              </ng-template>
+                                          <ng-template pTemplate="header" let-columns >
+                                            <tr>
+                                              <th *ngFor="let col of columns" pResizableColumn  [pSortableColumn]="col.field">
+                                                  {{col.header}}
+                                                  <p-sortIcon [field]="col.field"></p-sortIcon>
+                                              </th>
+                                              </tr>
+                                              <tr>
+                                                  <!-- <th  *ngFor="let col of columns" [ngSwitch]="col.field">
+                                  <p-multiSelect *ngSwitchCase="'State'" [filter]="true"  (onChange)="dt1.filter($event.value, col.field, 'in')" [options]="allStateNameData" defaultLabel="All"
+                                                  appendTo="body"></p-multiSelect>
+                                                  </th> -->
+                                                  </tr>
+                                          </ng-template>
+                                          <ng-template pTemplate="body" let-totalOtherBatchesArray let-columns="columns">
+                                            <tr>
+                                              <td *ngFor="let col of columns" class="ui-resizable-column">
+                                                  {{totalOtherBatchesArray[col.field]}}
+                                              </td>
+                                            </tr>
+                                            </ng-template>
+                                        </p-table>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+                  </div>
+
+
+
+        <div class="home-content">
+    <div class="wrapperGraph"  >
+        <div class="border14" *ngIf="showTotalBatchesDiv">
+            <div class="column1" >
+                <div echarts class="demo-chart"  (chartClick)="onDeclaredBoardChartClick($event)" [ngClass]="{'graph-border' : declaredBoardGraph}"
+                     [options]="declaredBoardGraph"></div>
+            </div>
+            <div class="column1" *ngIf="showDelaireBoardStateDiv" >
+
+                    <div echarts class="demo-chart"
+                        [ngClass]="{'graph-border' : stateDeclairedBoardGraph}"
+                        [options]="stateDeclairedBoardGraph"></div>
+
+                </div>
+           </div>
+        </div>
+    </div>
+</section>
+<div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" (click)="closeModal('myModal')" >&times;</span>
+          <p>GRAPH</p>
+          <div echarts class="demo-chart" [ngClass]="{'graph-border' : stateWiseParticipenatGraph}"
+          [options]="stateWiseParticipenatGraph"></div>
+        </div>
+</div>
+<div id="myModal1" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" (click)="closeModal('myModal1')" >&times;</span>
+          <p>GRAPH</p>
+          <div *ngIf="selectAdresseAllUsers">
+                <div echarts class="demo-chart"
+                    [ngClass]="{'graph-border' : stateWiseParticipentAndNonParticipentGraph}"
+                    [options]="stateWiseParticipentAndNonParticipentGraph"></div>
+        </div>
+        </div>
+</div>
+
+
+<div id="myModal2" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" (click)="closeModal('myModal2')" >&times;</span>
+          <p>GRAPH</p>
+          <div *ngIf="selectAdresseAllUsers1">
+                <div echarts class="demo-chart"
+                    [ngClass]="{'graph-border' : DistrictWiseParticipenatGraph}"
+                    [options]="DistrictWiseParticipenatGraph"></div>
+            </div>
+        </div>
+</div>
+
+
+<div id="myModal3" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" (click)="closeModal('myModal3')" >&times;</span>
+          <p>GRAPH</p>
+          <div *ngIf="selectAdresseAllUsers2">
+                <div echarts class="demo-chart"
+                    [ngClass]="{'graph-border' : districtWiseParticipentAndNonParticipentGraph}"
+                    [options]="districtWiseParticipentAndNonParticipentGraph"></div>
+            </div>
+        </div>
+</div>
+
+<div id="myModal4" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" (click)="closeModal('myModal4')" >&times;</span>
+    <p>GRAPH</p>
+      <div echarts class="demo-chart" [ngClass]="{'graph-border' : declaredBoardGraph}"
+      [options]="declaredBoardGraph"></div>
+  </div>
+</div>
+
+<div id="myModal5" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" (click)="closeModal('myModal5')" >&times;</span>
+    <p>GRAPH</p>
+    <div echarts class="demo-chart"
+    [ngClass]="{'graph-border' : stateDeclairedBoardGraph}"
+    [options]="stateDeclairedBoardGraph"></div>
+  </div>
+</div>
+<!--
+                <p-dialog header="GRAPH" [(visible)]="DeclaredBoardGraphModal" [style]="{width: '80%',height: '85%'}">
+                        <div echarts class="demo-chart"   [ngClass]="{'graph-border' : declaredBoardGraph}"
+                        [options]="declaredBoardGraph"></div>
+                    </p-dialog> -->
+</body>
